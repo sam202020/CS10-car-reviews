@@ -119,28 +119,28 @@ class SearchResults extends Component {
                         </Button> 
                     </Col> 
             
-                    <Col>
+                    <Col className="mt-1">
                         <UncontrolledCollapse toggler="#filter-toggler">
                             <SearchFilter data={this.state.allYears} type={'years'}
                                 handleFilter={this.handleFilter}
                             />
                         </UncontrolledCollapse>
                     </Col>
-                    <Col>
+                    <Col className="mt-1">
                         <UncontrolledCollapse toggler="#filter-toggler">
                             <SearchFilter data={this.state.allMakes} type={'makes'}
                                 handleFilter={this.handleFilter}
                             />
                         </UncontrolledCollapse>
                     </Col>    
-                    <Col>
+                    <Col className="mt-1">
                         <UncontrolledCollapse toggler="#filter-toggler">
                             <SearchFilter data={this.state.allModels} type={'models'}
                                 handleFilter={this.handleFilter}
                             />
                         </UncontrolledCollapse>
                     </Col>
-                    <Col>
+                    <Col className="mt-1">
                         <UncontrolledCollapse toggler="#filter-toggler">      
                             <SearchFilter data={this.state.allUsers} type={'users'}
                                 handleFilter={this.handleFilter}
